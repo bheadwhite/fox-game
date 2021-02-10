@@ -1,6 +1,7 @@
 import { TICK_RATE } from "./constants";
 import game, { handleUserAction } from "./gameState";
 import initButtons from "./buttons";
+import "@babel/polyfill";
 
 async function init() {
   initButtons(handleUserAction);
