@@ -19,7 +19,8 @@
     "prettier": "^2.2.1"
   },
   "browserslist": [
-    "defaults",
-    "last 2 Chrome versions"
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
   ]
 }
