@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
     "prettier": "^2.2.1"
   },
   "browserslist": [
+    "defaults",
     "last 2 Chrome versions"
   ]
 }
